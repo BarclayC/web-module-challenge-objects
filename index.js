@@ -12,9 +12,18 @@ function CreateMenuItem(name, price, category) {
   this.category = category;
 }
 
+let macchiato;
+macchiato = new CreateMenuItem("macchiato", 4, "drinks");
+console.log(macchiato);
+
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
 
-
+let macchiato;
+macchiato = new CreateMenuItem("macchiato", 4, "drinks");
+let salad;
+salad = new CreateMenuItem('salad', 6, 'lunch')
+let soda;
+soda = new CreateMenuItem('soda', 2, "drinks")
 
 /* Task 2: You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to your burger object that automatically calculates price given a string as a parameter.
 
